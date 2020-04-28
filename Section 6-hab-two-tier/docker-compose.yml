@@ -1,0 +1,23 @@
+version: '3'
+services:
+  web-1:
+    image: $HAB_ORIGIN/webapp
+    environment:
+     - HAB_LICENSE=accept-no-persist
+  web-2:
+    image: $HAB_ORIGIN/webapp
+    environment:
+     - HAB_LICENSE=accept-no-persist
+    command: --peer web-1
+    depends_on:
+      - web-1
+  load-balancer:
+    image: $HAB_ORIGIN/haproxy
+    environment:
+     - HAB_LICENSE=accept-no-persist
+    command: --peer web-2
+             --bind backend:webapp.default
+    ports:
+      - 8000:80
+    depends_on:
+      - web-2

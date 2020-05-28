@@ -1,5 +1,5 @@
 # Automation Solutions with Chef Automate
-This is the code repository for [Three.js 3D Graphics for the Web: Tips, Tricks, and Techniques [Video]](https://www.packtpub.com/cloud-networking/automation-solutions-with-chef-automate-video), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
+This is the code repository for [Automation Solutions with Chef Automate [Video]](https://www.packtpub.com/cloud-networking/automation-solutions-with-chef-automate-video), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
 
  
 

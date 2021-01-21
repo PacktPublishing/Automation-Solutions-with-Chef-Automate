@@ -1,8 +1,3 @@
-## $5 Tech Unlocked 2021!
-[Buy and download this Video for only $5 on PacktPub.com](https://www.packtpub.com/product/automation-solutions-with-chef-automate-video/9781839219597)
------
-*The $5 campaign         runs from __December 15th 2020__ to __January 13th 2021.__*
-
 # Automation Solutions with Chef Automate
 This is the code repository for [Automation Solutions with Chef Automate [Video]](https://www.packtpub.com/cloud-networking/automation-solutions-with-chef-automate-video), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
 
